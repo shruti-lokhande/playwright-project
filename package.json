@@ -1,0 +1,22 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "Automation tests for web applications using Playwright. Includes login tests (valid and invalid) for SauceDemo, cross-browser testing on Chromium, Firefox, and WebKit, and structured test cases with HTML reports.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.56.1",
+    "playwright-core": "^1.56.1",
+    "undici-types": "^7.16.0"
+  }
+}
